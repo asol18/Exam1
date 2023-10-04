@@ -433,11 +433,11 @@ public class CalculadoraUIX extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton19ActionPerformed
 
     private void btnPointActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPointActionPerformed
-
+     txtShow.setText(txtShow.getText()+".");
     }//GEN-LAST:event_btnPointActionPerformed
 
     private void btn0ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn0ActionPerformed
-        txtShow.setText(txtShow.getText()+"6");
+        txtShow.setText(txtShow.getText()+"0");
     }//GEN-LAST:event_btn0ActionPerformed
 
     private void btn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn3ActionPerformed
@@ -495,7 +495,7 @@ public class CalculadoraUIX extends javax.swing.JFrame {
     }//GEN-LAST:event_btnDivisonCocientActionPerformed
 
     private void btnPorcentageActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPorcentageActionPerformed
-        // TODO add your handling code here:
+           txtShow.setText(txtShow.getText()+"%");
     }//GEN-LAST:event_btnPorcentageActionPerformed
 
     private void btnSumActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSumActionPerformed
@@ -523,7 +523,7 @@ public class CalculadoraUIX extends javax.swing.JFrame {
     }//GEN-LAST:event_btnDivisionActionPerformed
 
     private void btnPositiveNegativeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPositiveNegativeActionPerformed
-
+    
     }//GEN-LAST:event_btnPositiveNegativeActionPerformed
 
     private void btnClearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnClearActionPerformed
@@ -531,7 +531,7 @@ public class CalculadoraUIX extends javax.swing.JFrame {
     }//GEN-LAST:event_btnClearActionPerformed
 
     private void btnClearErrorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnClearErrorActionPerformed
-
+    
     }//GEN-LAST:event_btnClearErrorActionPerformed
 
     private void btnRestUltimateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRestUltimateActionPerformed
